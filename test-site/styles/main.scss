@@ -1,7 +1,19 @@
 $primary: #FFD0EC;
+$secondary: #81689D;
 
-#profile {
-    border-radius: 15px;
+.round {
+    border-radius: 10px;
+}
+
+.background {
+    background-image: url("/test-site/images/purple-stripes.jpg");
+    background-size: 50%;
+}
+
+.vertical-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // Import all of bootstrap
