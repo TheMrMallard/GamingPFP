@@ -8,6 +8,8 @@ $(document).ready(
             // Update background position
             $('.background').css('background-position', `${position}px ${position}px`);
             $('#background2').css('background-position', `${position/2}px ${position/4}px`);
+            $('#interests').css('background-position', `${position/2}px ${position/4}px`);
+            $('#dislikes').css('background-position', `${position/2}px ${position/4}px`);
 
         }, 10);
     }
