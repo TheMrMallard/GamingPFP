@@ -10,6 +10,8 @@ $(document).ready(
             $('#background2').css('background-position', `${position/2}px ${position/4}px`);
             $('#interests').css('background-position', `${position/2}px ${position/4}px`);
             $('#dislikes').css('background-position', `${position/2}px ${position/4}px`);
+            $('#playlists').css('background-position', `${position/2}px ${position/4}px`);
+            $('#likes').css('background-position', `${position/2}px ${position/4}px`);
 
         }, 10);
     }
