@@ -1,12 +1,23 @@
 $primary: #FFD0EC;
 $secondary: #81689D;
 
+#font {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .round {
     border-radius: 10px;
 }
 
 .background {
+    position: relative;
     background-image: url("/test-site/images/purple-stripes.jpg");
+    background-size: 50%;
+}
+
+#background2 {
+    position: relative;
+    background-image: url("/test-site/images/mrmallard.png");
     background-size: 50%;
 }
 
