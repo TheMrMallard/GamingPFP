@@ -1,25 +1,34 @@
 $primary: #FFD0EC;
 $secondary: #81689D;
 
+body {
+    overflow-x: hidden;
+}
+
 #font {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #interests {
     background-image: url("/test-site/images/interests.png");
+    background-size: 50%;
 }
 
 #dislikes {
     background-image: url("/test-site/images/dislikes.png");
+    background-size: 50%;
 }
 
 #playlists {
     background-image: url("/test-site/images/playlists.png");
+    background-size: 50%;
 }
 
 #likes {
     background-image: url("/test-site/images/likes.png");
+    background-size: 25%;
 }
+
 
 .round {
     border-radius: 10px;
